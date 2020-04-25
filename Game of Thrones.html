@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>权利的游戏</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/beans.ico">
+	<style type="text/css">
+		*{
+	        margin:0;
+	        padding:0;
+		}
+
+		body{
+			background-color:#000;
+		}
+
+		#box{
+			width:1280px;
+			height:200px;
+			
+			position:relative;
+			top:100px;
+			transform-style:preserve-3d;
+			perspective:800px;
+
+		}
+
+		img{
+			width:200px;
+			height:300px;
+			position:absolute;
+			transition:all 2s;
+			-webkit-box-reflect:below 0 -webkit-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,.1));
+		}
+
+		.img1{
+			left:180px;
+			transform:rotateY(45deg) translateZ(-100px);
+		}
+
+		.img2{
+			left:300px;
+			transform:rotateY(45deg) translateZ(-100px);
+		}
+
+		.img3{
+			left:420px;
+			transform:rotateY(45deg) translateZ(-100px); 
+		}
+
+		.img4{
+			left:540px;
+			transform:translateZ(100px);
+		}
+
+		.img5{
+			left:660px;
+			transform:rotateY(-45deg) translateZ(-100px);
+		}
+
+		.img6{
+			left:780px;
+			transform:rotateY(-45deg) translateZ(-100px);
+		}
+
+		.img7{
+			left:900px;
+			transform:rotateY(-45deg) translateZ(-100px);
+		}
+
+		.now{
+		    transform:translateZ(100px);
+		}
+
+		.front{
+			transform:rotateY(45deg) translateZ(-100px);
+		}
+
+		.behind{
+			transform:rotateY(-45deg) translateZ(-100px);
+		}
+
+		.introduce,.shut{
+			color:gold;
+			height:50px;
+			position:absolute;
+			top:0px;
+			font-family:楷体;
+			right:50px;
+			font-size:17px;
+			background:#72b97d;
+			line-height:50px;
+			border-radius:5px 5px 5px 5px;
+			cursor:pointer;
+		}
+
+		.shut{
+			display:none;
+		}
+
+		.link{
+			width:800px;
+			height:500px;
+			background:#eee;
+			position:absolute;
+			top:150px;
+			left:220px;
+			display:none;
+			border:#ccc solid 5px;
+			padding:20px;
+			overflow:scroll;
+			font-family:楷体;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<div id="nav">
+		<h1>悠豆</h1>
+    <nav>
+      <h2>百度云资源</h2>
+      <div id="logo"></div>
+    </nav>
+	</div>
+</header>
+   <div id="box">
+    	<img class="img1 front" src="img/1.jpg">
+    	<img class="img2 front" src="img/2.jpg">
+    	<img class="img3 front" src="img/3.jpg">
+    	<img class="img4 now" src="img/4.jpg">
+    	<img class="img5 behind" src="img/5.jpg">
+    	<img class="img6 behind" src="img/6.jpg">
+    	<img class="img7 behind" src="img/7.jpg">
+    </div>
+    <div class="introduce">
+    	获取链接点我
+    </div>
+    <div class="shut">
+    	点击关闭链接
+    </div>
+    <div class="link">
+    	<h3>每集一个链接，可使用百度云离线下载</h3>
+    	<span>
+    	ed2k://|file|[QINDOU.ME]权力的游戏.S07E07.WR.END.mp4|1052959587|23871ab27f2546c25efb0f2a0b67d593|
+ed2k://|file|[QINDOU.ME]权力的游戏.S07E06.WR.mp4|938923740|efdc3ca5e3a2cdb849d47b1766747851|
+ed2k://|file|[QINDOU.ME]权力的游戏.S07E05.WR.mp4|792440349|8a678104fc76c563585188a6ea63ba8d|
+ed2k://|file|[QINDOU.ME]权力的游戏.S07E04.WR.mp4|665192941|8b2d1f84d312bc768470a4aed5352ee4|
+ed2k://|file|[QINDOU.ME]权力的游戏.S07E03.WR.mp4|833814299|7502100f22efe97087b1377aa461e915|
+ed2k://|file|[QINDOU.ME]权力的游戏.S07E02.WR.mp4|778369988|86a3661e495cb03c4f6f7a4841a63599|
+ed2k://|file|[QINDOU.ME]权力的游戏.S07E01.WR.mp4|798649776|eb94c2741e82b8ede2bc8666a3ad46a2|
+
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E10.WR.END.mp4|665375958|c3d7ab76dcd3de975e2b847adaea24a0|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E09.WR.mp4|579786673|4d77210dd8ccc9c9840647cb6f1d741c|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E08.WR.mp4|571234725|28b44594005e65856dcd93135ca08a70|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E07.WR.mp4|492492626|e891fe4f4e7a21291af864df97209f23|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E06.WR.mp4|516029612|e24d8d563bb35d2b4bacbc7fdf9fb298|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E05.WR.mp4|569197385|bee5b70f011f158aad2101ea5c8d1c87|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E04.WR.mp4|588083148|02d384ac43e9682d49ccd0bd724481fa|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E03.WR.mp4|523917242|0790971b27555096251ab7baaf3d7016|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E02.WR.mp4|539021477|5f2a74e4b49ec1a8e3dbcc918aa89cda|
+ed2k://|file|[QINDOU.ME]权力的游戏.S06E01.WR.mp4|501091675|a9e27574ff389bb89254c24b941bce34|
+
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E10.WR.END.mp4|602114914|85b9ad2bc9ed2ec480392be4bce53761|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E09.WR.mp4|523254888|ea26e616140da3998c9c08f81a6eb5b7|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E08.WR.mp4|599892237|95f9a0bf223f58d28e91eed17d123287|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E07.WR.mp4|588295392|824d56224c9adfda294938737b8bbaf5|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E06.WR.mp4|536760770|686c95f736c0e7b308fe169f400cb2db|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E05.WR.V2.mp4|566697933|ea85828e8facd04d2ffda105bf550391|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E04.WR.mp4|503911433|4de188f6bb7dd723cbc6924301f5e479|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E03.WR.V2.mp4|597498042|828a3f6cd1647a06824adfa07b20f67b|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E02.WR.mp4|569523144|0b990e0feaf5aa487f6ac7407bbaffdc|
+ed2k://|file|[QINDOU.ME]权力的游戏.S05E01.WR.mp4|521687708|bc76bd0b347cc9335e7f71b0d073c758|
+
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E10.End.mkv|777802944|fe2e72abb59d2484a3bc4fc3525f656c|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E09.mkv|602298764|b18efb7ffec6c16d9bf66513327b68ed|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E08.mkv|623865933|6019140c6c42dc35e611623bb78931e2|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E07.mkv|608788658|5e7d16bda532717b9b42e7cae70305c9|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E06.mkv|622211521|b2efa65f49a1f06b3f5cb1d785bf4cb3|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E05.mkv|634588429|279652bcb3015a480a1400a40709a6ea|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E04.mkv|656968654|02bf0e104ded8d3f50e781d9b3b6fd03|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E03.mkv|678493523|4dc9e37b869316095b41ce008afdc8f6|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E02.mkv|625950602|8710cefad79a7097064ef67a82536fee|
+ed2k://|file|[QINDOU.ME]权力的游戏.S04E01.mkv|717626453|832fca456f7ece799c5d21056ecacf8e|
+
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E10.END.mkv|748854844|13e2945e331a0097b0db770389f2a386|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E09.mkv|607236401|6ca7bdc3cc04158d4bd099eefa79495b|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E08.mkv|673230556|501e1f9b06562ba69b0fc8d7d7edfd89|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E07.mkv|687746830|f74b36a9e2be18b93bbbc7bc3f411925|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E06.mkv|637191182|662a5dc0845b2d26d3dee7facc96f220|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E05.mkv|685792898|0d0230019a42801969304460e902be5f|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E04.mkv|637374710|93dd37b19f5d2d3c75b592d166084bb6|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E03.mkv|630979594|bba738490a06572e051561d2097d3395|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E02.mkv|681009552|2e632f33daebe2134c6a26a8a8943803|
+ed2k://|file|[QINDOU.ME]权力的游戏.S03E01.mkv|650979889|b522aa49818bbc7f0f70b9d01b0616ef|
+
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E10.END.mkv|711344805|7BA9DA7ED2990333E07D6F61031CB8C0|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E09.mkv|609875723|2A9716FC155EF4E6AA12C2C205471FBD|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E08.mkv|598714624|A1DA8A83D054F250131C137D590A72C6|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E07.mkv|621546800|1C1950E45886A0E6C724C4DB7F1C4BC4|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E06.mkv|606261559|7EECDEAB63B9F20FB36BDDB4B1F8D12B|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E05.mkv|581434910|68EEB7C0CEACD0338318B75EFD3C67B8|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E04.mkv|543485685|C94796FE6D5739ECDF0206E1FC6623F5|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E03.mkv|565339626|762A578C00E7AFD292C1CDA78ADEEB72|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E02.mkv|572952071|BBE5A68147E851FB611F9D8217F2634B|
+ed2k://|file|[QINDOU.ME]权力的游戏.S02E01.mkv|565159012|1A111508591FE88E8D556702C418A299|
+
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E10.END.mkv|705381148|9e76aaa2b44729cdb3964496739b9dd0|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E09.mkv|755168160|7f84afea201893c8c9ff71b07d939b92|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E08.mkv|777776203|8be99b0cb5b84866e1c4214a698ef598|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E07.mkv|774734209|af1c523db50f9980e04d849cb75ebcfc|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E06.mkv|705203205|31347c5592df9ef9b452af7b4e1c3630|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E05.mkv|727136982|e3075da9c5247256089df648170af1cc|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E04.mkv|745780829|417057a660bebce6c735703da0573465|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E03.mkv|767698945|2fa780d6415940db326545ad740e618d|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E02.mkv|741192763|b5bda445e12bf92dbdcf94d28cc15793|
+ed2k://|file|[QINDOU.ME]权力的游戏.S01E01.mkv|825214884|fd10ae50a8ad148a756d593b57049a0a|
+    	</span>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+        var left=[];
+        var nindex=3
+        for(var i=0;i<7;i++){
+        	left[i]=parseInt($("#box img").eq(i).css("left"));
+        }
+    	$("#box img").click(function(){
+    	var cindex=$(this).index();
+    	for(var i=0;i<7;i++){
+           left[i]=left[i]-120*(cindex-nindex);
+           $("#box img").eq(i).css("left",left[i]+'px');
+    	}
+    	nindex=cindex;
+    	$("#box img").eq(cindex).removeClass().addClass("now");
+    	for(var j=0;j<cindex;j++){
+           $("#box img").eq(j).removeClass().addClass("front");
+    	}
+    	for(var k=6;k>cindex;k--){
+           $("#box img").eq(k).removeClass().addClass("behind");
+    	}
+    	});
+
+    	//链接获取
+    	$('.introduce').click(function(){
+    		$('.shut').css('display','block');
+    		$('.link').css('display','block');
+    	});
+    	$('.shut').click(function(){
+    		$('.introduce').css('display','block');
+    		$('.link').css('display','none');
+    		$('.shut').css('display','none');
+
+    	});
+    </script>
+</body>
+</html>
